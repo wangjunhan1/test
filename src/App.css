@@ -1,0 +1,66 @@
+/*.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}*/
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+li {
+  float: left;
+  margin: 50px 200px;
+  height: 96px;
+}
+.hex {
+  display: block;
+  overflow: hidden;
+  width: 100px;
+  height: 116px;
+  transform: rotate(-60deg) skewY(30deg);
+}
+.hexIn {
+  /*background: radial-gradient(Turquoise, RoyalBlue, RoyalBlue);*/
+  background: radial-gradient(hsla(193, 100%, 66%, 1), hsla(232, 88%, 32%, 1));
+  display: block;
+  width: 100px;
+  height: 116px;
+  line-height: 116px;
+  text-align: center;
+  transform: skewY(-30deg) rotate(60deg);
+}
+.hex1 {
+  display: block;
+  overflow: hidden;
+  width: 116px;
+  height: 100px;
+  transform: rotate(60deg) skewX(30deg);
+}
+.hexIn1 {
+  /*background: radial-gradient(Turquoise, RoyalBlue, RoyalBlue);*/
+  background: radial-gradient(hsla(193, 100%, 66%, 1), hsla(232, 88%, 32%, 1));
+  display: block;
+  width: 116px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  transform: skewX(-30deg) rotate(-60deg);
+}
